@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Bridge Resources Jobs</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Lato:wght@900&family=Nunito:wght@800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Lato:wght@900&family=Nunito:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <!---Header--->
+            <header class="header"></header>
+            <!---End Header--->
+            <!---Sidebar--->
+            <aside id="sidebar"></aside>
+            <!---End Sidebar--->
+            <!---Main--->
+            <main class="main-container"></main>
+        </div>
+        <div id="ja-jobs-widget"></div>
+        <script>
+            var _baseUrl = "//apps.jobadder.com/widgets";
+            var _jaJobsSettings = {
+                key: "AU1_b6b5ykgrryvupigjih65knpnfq",
+                applicationFormSettings: {
+                    useExternalApplicationForm: true,
+                    showExternalApplicationFormInNewWindow: false
+                }
+            };
+        </script>
+
+        <sript src="js/script.js"></sript>
+        <script src="//apps.jobadder.com/widgets/v1/jobs.min.js"></script>
+    </body>    
+</html>
